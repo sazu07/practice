@@ -34,12 +34,22 @@
 //   return result;
 // }
 
-const  frinds=['rahim', 'karim', 'josim']
-const item=(frind)=>frind.length;
+// const  frinds=['rahim', 'karim', 'josim']
+// const item=(frind)=>frind.length;
 
 
-const output=frinds.map(item);
-console.log(output)
+// const output=frinds.map(item);
+// console.log(output)
+
+const products=[
+    {name:'laptop', price:20000,model:17, color:'black'},
+    {name:'mobile', price:2000,model:12, color:'red'},
+    {name:'computer', price:122000,model:20, color:'white'},
+    {name:'smart watch', price:15000,model:10, color:'blue'},
+]
+
+const productsName=products.map(products=>products.price)
+console.log(productsName);
 
 
 
