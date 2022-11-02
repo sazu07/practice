@@ -34,29 +34,23 @@
 //   return result;
 // }
 
-// const  frinds=['rahim', 'karim', 'josim']
-// const item=(frind)=>frind.length;
+const  frinds=['rahim', 'karim', 'josimc']
+const numbers = [2, 4, 6, 8,10]
+const result = numbers.map(num=>num*2)
+const item=(frind)=>frinds.length;
 
 
-// const output=frinds.map(item);
+const output=frinds.map(frind=>frinds.length);
 // console.log(output)
 
-// const products=[
-//     {name:'laptop', price:20000,model:17, color:'black'},
-//     {name:'mobile', price:2000,model:12, color:'red'},
-//     {name:'computer', price:122000,model:20, color:'white'},
-//     {name:'smart watch', price:15000,model:10, color:'blue'},
-// ]
 
-// const productsName=products.map(products=>products.price)
-// console.log(productsName);
+// function add(a,b){
+//     return a+b;
+    
+// }
+// const call= add(5, 5);
 
-
-const numbers=[42,25,23,8,9,30]
-
-const bigNumber= numbers.filter(number=>number<20);
-console.log(bigNumber);
-const smallestNumber= numbers.find(number=>number>20)
-console.log(smallestNumber);
-
+ const add=(a,b)=>{
+    
+ }
 
